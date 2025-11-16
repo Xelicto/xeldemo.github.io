@@ -5,17 +5,23 @@ body {
   font-size: 14px;
 }
 .v10202_1977 {
-  width: 375px;
-  height: 8919px;
-  background: url("v10202_1977.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  width: 375px;
+  height: 8919px;
+  background: url("v10202_1977.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+    
+    /* ------------------------------------- */
+    /* *** CENTERING FIX APPLIED HERE *** */
+    left: 50%; /* Move starting point to center of screen */
+    transform: translateX(-50%); /* Shift left by half the element's width */
+    /* ------------------------------------- */
+    
+  overflow: hidden;
 }
 .v10202_2324 {
   width: 375px;
